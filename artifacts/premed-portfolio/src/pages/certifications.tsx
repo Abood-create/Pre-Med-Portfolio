@@ -10,10 +10,17 @@ interface Certification {
   org: string;
   issued: string;
   expires: string;
-  credentialId: string;
+  credentialId?: string;
 }
 
 const certifications: Certification[] = [
+  {
+    id: "cert-cpr",
+    name: "CPR Certified",
+    org: "",
+    issued: "Apr 2026",
+    expires: "Aug 2028",
+  },
   {
     id: "cert-1",
     name: "Basic Introduction to Biosafety",
@@ -118,13 +125,13 @@ export default function Certifications() {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium text-foreground leading-tight mb-1">{cert.name}</h3>
-                  <p className="text-sm font-medium text-[#005a8c]">{cert.org}</p>
+                  {cert.org && <p className="text-sm font-medium text-[#005a8c]">{cert.org}</p>}
                 </div>
               </div>
               
               <div className="mt-auto pt-4 border-t border-border/40 text-sm text-muted-foreground space-y-1">
                 <p>Issued {cert.issued} · Expires {cert.expires}</p>
-                <p>Credential ID {cert.credentialId}</p>
+                {cert.credentialId && <p>Credential ID {cert.credentialId}</p>}
               </div>
               
               <div className="mt-6">

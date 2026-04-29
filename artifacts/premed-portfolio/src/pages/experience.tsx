@@ -16,6 +16,16 @@ interface TimelineEvent {
 
 const experiences: TimelineEvent[] = [
   {
+    id: "exp-4",
+    title: "Research Intern",
+    organization: "Adams Lab @ SJSU",
+    type: "Internship",
+    date: "Jan 2026 – Present",
+    location: "San Jose, California, United States",
+    format: "On-site",
+    description: "Supporting ongoing research projects and learning research methods under supervision."
+  },
+  {
     id: "exp-1",
     title: "Patient Intake Volunteer",
     organization: "APPNA Community Health Clinic STL Inc",

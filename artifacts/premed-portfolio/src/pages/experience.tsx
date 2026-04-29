@@ -30,7 +30,7 @@ const experiences: TimelineEvent[] = [
     title: "Volunteer",
     organization: "Santa Clara Valley Medical Center",
     type: "Internship",
-    date: "Feb 2023 – Present",
+    date: "Feb 2023 – August 2025",
     location: "San Jose, California, United States",
     format: "On-site",
     description: "Skills: Interpersonal Communication, Spanish, and +3 skills"

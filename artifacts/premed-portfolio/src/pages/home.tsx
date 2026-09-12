@@ -38,7 +38,7 @@ export default function Home() {
             <Stethoscope className="w-4 h-4 mr-2" />
             Pre-Med Student
           </div>
-          <h1 className="text-5xl md:text-7xl font-serif font-medium text-orange-500 tracking-tight mb-6">
+          <h1 className="text-5xl md:text-7xl font-serif font-medium text-[#DD571C] tracking-tight mb-6">
             Abdelrahman <br className="md:hidden" />Mohaisen
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
